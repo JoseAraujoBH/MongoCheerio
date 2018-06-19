@@ -1,0 +1,28 @@
+{
+  "name": "mongocheerio",
+  "version": "1.0.0",
+  "description": "homework 18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoseAraujoBH/MongoCheerio.git"
+  },
+  "author": "Jose Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoseAraujoBH/MongoCheerio/issues"
+  },
+  "homepage": "https://github.com/JoseAraujoBH/MongoCheerio#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.1.6",
+    "request": "^2.87.0"
+  }
+}
